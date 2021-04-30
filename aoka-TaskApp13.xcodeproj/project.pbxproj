@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83BD7C082636A59A00D403F3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD7C072636A59A00D403F3 /* TableViewCell.swift */; };
+		83F8447326369995002474AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8447226369995002474AD /* AppDelegate.swift */; };
+		83F8447526369995002474AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8447426369995002474AD /* SceneDelegate.swift */; };
+		83F8447726369995002474AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8447626369995002474AD /* ViewController.swift */; };
+		83F8447A26369995002474AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F8447826369995002474AD /* Main.storyboard */; };
+		83F8447C26369997002474AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F8447B26369997002474AD /* Assets.xcassets */; };
+		83F8447F26369997002474AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F8447D26369997002474AD /* LaunchScreen.storyboard */; };
+		83F8448A26369997002474AD /* aoka_TaskApp13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8448926369997002474AD /* aoka_TaskApp13Tests.swift */; };
+		83F8449526369997002474AD /* aoka_TaskApp13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8449426369997002474AD /* aoka_TaskApp13UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F8448626369997002474AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F8446726369995002474AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F8446E26369995002474AD;
+			remoteInfo = "aoka-TaskApp13";
+		};
+		83F8449126369997002474AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F8446726369995002474AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F8446E26369995002474AD;
+			remoteInfo = "aoka-TaskApp13";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83BD7C072636A59A00D403F3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		83F8446F26369995002474AD /* aoka-TaskApp13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoka-TaskApp13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F8447226369995002474AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83F8447426369995002474AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83F8447626369995002474AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83F8447926369995002474AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83F8447B26369997002474AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F8447E26369997002474AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83F8448026369997002474AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F8448526369997002474AD /* aoka-TaskApp13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoka-TaskApp13Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F8448926369997002474AD /* aoka_TaskApp13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoka_TaskApp13Tests.swift; sourceTree = "<group>"; };
+		83F8448B26369997002474AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F8449026369997002474AD /* aoka-TaskApp13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoka-TaskApp13UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F8449426369997002474AD /* aoka_TaskApp13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoka_TaskApp13UITests.swift; sourceTree = "<group>"; };
+		83F8449626369997002474AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F8446C26369995002474AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448226369997002474AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448D26369997002474AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F8446626369995002474AD = {
+			isa = PBXGroup;
+			children = (
+				83F8447126369995002474AD /* aoka-TaskApp13 */,
+				83F8448826369997002474AD /* aoka-TaskApp13Tests */,
+				83F8449326369997002474AD /* aoka-TaskApp13UITests */,
+				83F8447026369995002474AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F8447026369995002474AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F8446F26369995002474AD /* aoka-TaskApp13.app */,
+				83F8448526369997002474AD /* aoka-TaskApp13Tests.xctest */,
+				83F8449026369997002474AD /* aoka-TaskApp13UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F8447126369995002474AD /* aoka-TaskApp13 */ = {
+			isa = PBXGroup;
+			children = (
+				83F8447226369995002474AD /* AppDelegate.swift */,
+				83F8447426369995002474AD /* SceneDelegate.swift */,
+				83F8447626369995002474AD /* ViewController.swift */,
+				83BD7C072636A59A00D403F3 /* TableViewCell.swift */,
+				83F8447826369995002474AD /* Main.storyboard */,
+				83F8447B26369997002474AD /* Assets.xcassets */,
+				83F8447D26369997002474AD /* LaunchScreen.storyboard */,
+				83F8448026369997002474AD /* Info.plist */,
+			);
+			path = "aoka-TaskApp13";
+			sourceTree = "<group>";
+		};
+		83F8448826369997002474AD /* aoka-TaskApp13Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83F8448926369997002474AD /* aoka_TaskApp13Tests.swift */,
+				83F8448B26369997002474AD /* Info.plist */,
+			);
+			path = "aoka-TaskApp13Tests";
+			sourceTree = "<group>";
+		};
+		83F8449326369997002474AD /* aoka-TaskApp13UITests */ = {
+			isa = PBXGroup;
+			children = (
+				83F8449426369997002474AD /* aoka_TaskApp13UITests.swift */,
+				83F8449626369997002474AD /* Info.plist */,
+			);
+			path = "aoka-TaskApp13UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F8446E26369995002474AD /* aoka-TaskApp13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F8449926369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13" */;
+			buildPhases = (
+				83F8446B26369995002474AD /* Sources */,
+				83F8446C26369995002474AD /* Frameworks */,
+				83F8446D26369995002474AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aoka-TaskApp13";
+			productName = "aoka-TaskApp13";
+			productReference = 83F8446F26369995002474AD /* aoka-TaskApp13.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F8448426369997002474AD /* aoka-TaskApp13Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F8449C26369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13Tests" */;
+			buildPhases = (
+				83F8448126369997002474AD /* Sources */,
+				83F8448226369997002474AD /* Frameworks */,
+				83F8448326369997002474AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F8448726369997002474AD /* PBXTargetDependency */,
+			);
+			name = "aoka-TaskApp13Tests";
+			productName = "aoka-TaskApp13Tests";
+			productReference = 83F8448526369997002474AD /* aoka-TaskApp13Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83F8448F26369997002474AD /* aoka-TaskApp13UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F8449F26369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13UITests" */;
+			buildPhases = (
+				83F8448C26369997002474AD /* Sources */,
+				83F8448D26369997002474AD /* Frameworks */,
+				83F8448E26369997002474AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F8449226369997002474AD /* PBXTargetDependency */,
+			);
+			name = "aoka-TaskApp13UITests";
+			productName = "aoka-TaskApp13UITests";
+			productReference = 83F8449026369997002474AD /* aoka-TaskApp13UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F8446726369995002474AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					83F8446E26369995002474AD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					83F8448426369997002474AD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 83F8446E26369995002474AD;
+					};
+					83F8448F26369997002474AD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 83F8446E26369995002474AD;
+					};
+				};
+			};
+			buildConfigurationList = 83F8446A26369995002474AD /* Build configuration list for PBXProject "aoka-TaskApp13" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F8446626369995002474AD;
+			productRefGroup = 83F8447026369995002474AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F8446E26369995002474AD /* aoka-TaskApp13 */,
+				83F8448426369997002474AD /* aoka-TaskApp13Tests */,
+				83F8448F26369997002474AD /* aoka-TaskApp13UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F8446D26369995002474AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F8447F26369997002474AD /* LaunchScreen.storyboard in Resources */,
+				83F8447C26369997002474AD /* Assets.xcassets in Resources */,
+				83F8447A26369995002474AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448326369997002474AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448E26369997002474AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F8446B26369995002474AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BD7C082636A59A00D403F3 /* TableViewCell.swift in Sources */,
+				83F8447726369995002474AD /* ViewController.swift in Sources */,
+				83F8447326369995002474AD /* AppDelegate.swift in Sources */,
+				83F8447526369995002474AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448126369997002474AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F8448A26369997002474AD /* aoka_TaskApp13Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F8448C26369997002474AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F8449526369997002474AD /* aoka_TaskApp13UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F8448726369997002474AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F8446E26369995002474AD /* aoka-TaskApp13 */;
+			targetProxy = 83F8448626369997002474AD /* PBXContainerItemProxy */;
+		};
+		83F8449226369997002474AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F8446E26369995002474AD /* aoka-TaskApp13 */;
+			targetProxy = 83F8449126369997002474AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83F8447826369995002474AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F8447926369995002474AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83F8447D26369997002474AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F8447E26369997002474AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F8449726369997002474AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83F8449826369997002474AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F8449A26369997002474AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83F8449B26369997002474AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83F8449D26369997002474AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoka-TaskApp13.app/aoka-TaskApp13";
+			};
+			name = Debug;
+		};
+		83F8449E26369997002474AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoka-TaskApp13.app/aoka-TaskApp13";
+			};
+			name = Release;
+		};
+		83F844A026369997002474AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aoka-TaskApp13";
+			};
+			name = Debug;
+		};
+		83F844A126369997002474AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aoka-TaskApp13UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koki.aoka-TaskApp13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aoka-TaskApp13";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F8446A26369995002474AD /* Build configuration list for PBXProject "aoka-TaskApp13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F8449726369997002474AD /* Debug */,
+				83F8449826369997002474AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F8449926369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F8449A26369997002474AD /* Debug */,
+				83F8449B26369997002474AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F8449C26369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F8449D26369997002474AD /* Debug */,
+				83F8449E26369997002474AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F8449F26369997002474AD /* Build configuration list for PBXNativeTarget "aoka-TaskApp13UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F844A026369997002474AD /* Debug */,
+				83F844A126369997002474AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F8446726369995002474AD /* Project object */;
+}
