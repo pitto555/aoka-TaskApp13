@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     private var fruitsCheckArray = [ ["keyName": "りんご", "keyCheck": false],
                                      ["keyName": "みかん", "keyCheck": true],
                                      ["keyName": "バナナ", "keyCheck": false],
-                                     ["keyName": "パイナップル", "keyCheck": true]]
+                                     ["keyName": "パイナップル", "keyCheck": true],]
 }
 
 extension ViewController: UITableViewDataSource {
@@ -23,11 +23,10 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier:"cell1", for: indexPath) as! TableViewCell
         
-        if let keyName = fruitsCheckArray[indexPath.row]["keyName"] as? String {
-            cell.memoLabel.text = keyName
-        }
-        
+        cell.memoLabel.text = fruitsCheckArray[indexPath.row]["keyName"] as? String
+            
         if let keyCheck = fruitsCheckArray[indexPath.row]["keyCheck"] as? Bool {
+            cell.checkImage.image = nil
             if keyCheck == true {
                 cell.checkImage.image = UIImage(named: "oranngeCheck")
             }
