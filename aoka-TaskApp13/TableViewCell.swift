@@ -9,7 +9,11 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var checkImage: UIImageView!
-    @IBOutlet weak var memoLabel: UILabel!
-    
+    @IBOutlet private weak var checkImage: UIImageView!
+    @IBOutlet private weak var memoLabel: UILabel!
+
+    func configure(checkItem: CheckItem) {
+        memoLabel.text = checkItem.name
+        checkImage.image = checkItem.isChecked ? UIImage(named: "oranngeCheck") : nil
+    }
 }
